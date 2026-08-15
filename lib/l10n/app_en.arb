@@ -1,0 +1,622 @@
+{
+  "@@locale": "en",
+  "appTitle": "Wirdi",
+  "@appTitle": {
+    "description": "App name shown in title bar / task switcher"
+  },
+  "navHome": "Home",
+  "navQuran": "Quran",
+  "navAzkar": "Azkar",
+  "navPrayer": "Prayer",
+  "navTasbeeh": "Tasbeeh",
+  "navMore": "More",
+  "commonCancel": "Cancel",
+  "commonSave": "Save",
+  "commonDelete": "Delete",
+  "commonClose": "Close",
+  "commonOk": "OK",
+  "commonBack": "Back",
+  "commonNext": "Next",
+  "commonSkip": "Skip",
+  "commonDone": "Done",
+  "commonRetry": "Retry",
+  "commonShare": "Share",
+  "commonSearch": "Search",
+  "commonEdit": "Edit",
+  "commonConfirm": "Confirm",
+  "commonLoading": "Loading…",
+  "commonError": "Something went wrong",
+  "commonYes": "Yes",
+  "commonNo": "No",
+  "languageName_ar": "Arabic",
+  "languageName_en": "English",
+  "languageName_de": "German",
+  "languageName_tr": "Turkish",
+  "settingsLanguage": "Language",
+  "settingsLanguageSystem": "System default",
+  "settingsLanguageSubtitle": "Choose the app's display language",
+  "asmaUlHusnaTitle": "The 99 Names of Allah",
+  "sourcesLicensesTitle": "Sources & Licenses",
+  "sourcesOssLicensesButton": "Open-source package licenses",
+  "aboutTitle": "About",
+  "aboutTagline": "Your daily companion for dhikr and Quran",
+  "aboutVersion": "Version 1.0.0",
+  "aboutBody": "Wirdi is a daily Islamic companion app that helps you keep up with Quran reading, your azkar, prayer times, and tasbeeh, all in one calm, simple design. The app has no ads or tracking, and all your data stays on your device.",
+  "onboardingSkip": "Skip",
+  "onboardingSlide1": "Make the Quran part of your day",
+  "onboardingSlide2": "Track your daily wird and build a habit",
+  "onboardingSlide3": "Remind your heart before time reminds you",
+  "onboardingStart": "Start your journey",
+  "onboardingNext": "Next",
+  "privacyPolicyTitle": "Privacy Policy",
+  "favoritesTitle": "Favorites",
+  "favoritesTabAyahs": "Quran Verses",
+  "favoritesTabAzkar": "Azkar",
+  "favoritesLoadError": "Couldn't load favorites",
+  "favoritesEmptyAyahs": "No favorite verses yet",
+  "favoritesEmptyAzkar": "No favorite azkar yet",
+  "favoritesAyahSubtitle": "Surah {surahName} - Ayah {ayahNumber}",
+  "@favoritesAyahSubtitle": {
+    "placeholders": {
+      "surahName": {
+        "type": "String"
+      },
+      "ayahNumber": {
+        "type": "int"
+      }
+    }
+  },
+  "zakatTitle": "Zakat Calculator",
+  "zakatNisabHint": "Enter today's nisab value (at the current market price of gold or silver) before calculating, since the nisab price changes daily and can't be hardcoded in the app. You can check with your local fatwa authority or look up the current gold price (85 grams of gold, or its equivalent in silver).",
+  "zakatCurrentNisab": "Current nisab value",
+  "zakatableAssets": "Zakatable assets",
+  "zakatCash": "Cash and equivalents (bank, wallet)",
+  "zakatGoldSilver": "Gold and silver (market value)",
+  "zakatInvestments": "Investments and stocks",
+  "zakatBusiness": "Trade goods (merchandise for sale)",
+  "zakatReceivables": "Debts owed to you (expected to be recovered)",
+  "zakatOwedDebts": "Debts you owe",
+  "zakatCurrentDebts": "Debts and bills currently owed by you",
+  "zakatNetWealth": "Net zakatable wealth",
+  "zakatEnterNisabFirst": "Enter the nisab value first",
+  "zakatBelowNisab": "Your wealth is below nisab — no zakat is due",
+  "zakatDue": "Zakat due (2.5%)",
+  "zakatFootnote": "Note: this calculator gives a general estimate at the standard rate (2.5%) on wealth that has been held for a full lunar year and reached nisab. Zakat on crops, livestock, and minerals follows different rules not covered here. For specific situations, it's best to ask a qualified scholar.",
+  "settingsTitle": "Settings",
+  "settingsAppearance": "Appearance",
+  "settingsMode": "Mode",
+  "settingsModeLight": "Light",
+  "settingsModeDark": "Dark",
+  "settingsModeAuto": "Automatic",
+  "settingsFontSize": "Font size",
+  "settingsFontPreview": "Sample text to preview font size",
+  "settingsShowTransliteration": "Show Latin transliteration",
+  "settingsShowTransliterationSubtitle": "Helpful for those learning to read — appears under every verse",
+  "settingsPrayerReminder": "Prayer Reminder",
+  "settingsPrayerReminderEnable": "Enable upcoming prayer reminder",
+  "settingsPrayerReminderSubtitle": "The reminder only works while the app is open",
+  "settingsPrayerReminderMinutesBefore": "Remind before prayer by (minutes)",
+  "settingsPrayerReminderMinutesLabel": "{minutes} min",
+  "settingsPrayerReminderMethod": "Reminder method",
+  "settingsReminderBanner": "Notification only",
+  "settingsReminderBeep": "Alert tone",
+  "settingsReminderAdhan": "Full adhan",
+  "settingsTestTone": "Test tone",
+  "settingsAdhanSound": "Adhan sound",
+  "settingsStopPreview": "Stop preview",
+  "settingsListen": "Listen",
+  "settingsReminderNote": "Note: the app sends a real notification even when it's closed, but you'll need to grant notification permission (and exact-alarm permission on Android 12+) when you turn this on. Today's and tomorrow's reminders are rescheduled every time you open the Home or Prayer Times screen.",
+  "settingsDailyWird": "Daily Wird",
+  "settingsDailyWirdTarget": "Daily target (pages/surahs)",
+  "settingsDailyWirdPerDay": "{count} per day",
+  "settingsAboutSupport": "About & Support",
+  "settingsAbout": "About",
+  "settingsSourcesLicenses": "Sources & Licenses",
+  "settingsPrivacyPolicy": "Privacy Policy",
+  "settingsDataManagement": "Data Management",
+  "settingsQuranLastUpdate": "Quran last updated",
+  "settingsAzkarLastUpdate": "Azkar last updated",
+  "settingsNotDownloadedYet": "Not downloaded yet",
+  "settingsUpdateNow": "Update data now",
+  "settingsRequiresInternet": "Requires an internet connection",
+  "settingsDataUpdated": "Quran and azkar data updated",
+  "settingsDownloadedAudio": "Downloaded recitations for offline listening",
+  "settingsNoDownloadedAudio": "No downloaded recitations",
+  "settingsMbDownloaded": "{size} MB downloaded",
+  "settingsDeleteAll": "Delete all",
+  "settingsDeleteAllDownloadsTitle": "Delete all downloaded recitations",
+  "settingsDeleteAllDownloadsBody": "All downloaded audio files for every surah will be deleted. Listening will fall back to online streaming.",
+  "settingsResetKhatma": "Reset Khatma progress",
+  "settingsResetKhatmaSubtitle": "Start a fresh Khatma from scratch",
+  "settingsResetKhatmaBody": "Every surah will be marked unread again to start a new Khatma. Your daily wird and favorites won't be affected.",
+  "settingsResetKhatmaConfirm": "Reset",
+  "settingsKhatmaResetDone": "A new Khatma has started, good luck! 🌿",
+  "settingsDeleteLocalData": "Delete all local data",
+  "settingsDeleteLocalDataBody": "Favorites, tasbeeh stats, daily wird progress, and all settings saved on this device will be deleted. This cannot be undone.",
+  "settingsLocalDataDeleted": "All local data has been deleted",
+  "settingsPreviewFailed": "Couldn't play the preview — check your connection",
+  "@settingsPrayerReminderMinutesLabel": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@settingsDailyWirdPerDay": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@settingsMbDownloaded": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "quranTranslationUnavailable": "Translation unavailable for this verse",
+  "quranTranslationLoadFailed": "Couldn't load the translation",
+  "quranTranslationRetry": "Retry",
+  "quranTranslationSourceNote": "Translation from QuranEnc.com",
+  "homeGreetingNight": "Blessed night 🌙",
+  "homeGreetingMorning": "Good morning 👋",
+  "homeGreetingAfternoon": "Have a great day ☀️",
+  "homeGreetingEvening": "Good evening 👋",
+  "homeStreakDays": "Wird streak: {days} days 🔥",
+  "homeContinueToday": "Keep up what you started today",
+  "homeKhatmaProgress": "Khatma progress: {percent}%",
+  "homeIslamicTools": "Islamic Tools",
+  "homeNextPrayer": "Next Prayer",
+  "homeInLabel": "in {countdown}",
+  "homeCachedPrayerTimes": "Last saved times (offline)",
+  "homeEnableLocationForPrayer": "Enable location to see the next prayer",
+  "homeDailyWird": "Daily Wird",
+  "homeWirdCompleted": "You've completed today's wird, may Allah bless you 🎉",
+  "homeWirdProgress": "{pages} of {target} pages/surahs",
+  "homeContinueReading": "Continue Reading",
+  "homeNoLastReading": "No last reading position yet",
+  "homeLastReadingSubtitle": "Surah {surahName} — Ayah {ayahNumber}",
+  "homeFavorites": "Favorites",
+  "homeNoFavoritesYet": "No favorite items yet",
+  "homeFavoritesSavedCount": "{count} items saved",
+  "homeQuoteOfTheDay": "Quote of the Day",
+  "homeThisWeek": "This Week",
+  "homeActiveDaysOf": "{active} of {total} active days",
+  "homeWirdTargetMetSummary": "You met the daily wird target on {met} of {total} days this week",
+  "homeQuickActions": "Quick Actions",
+  "homeQuickAzkar": "Azkar",
+  "homeQuickTasbeeh": "Tasbeeh",
+  "homeQuickPrayer": "Prayer",
+  "homeCompletionPercent": "Completion {percent} percent",
+  "homeDayNotYet": "{day}: hasn't come yet",
+  "homeDaySummary": "{day}: {pages} pages, {azkar} azkar, {tasbeeh} tasbeeh, {prayers} prayers",
+  "dayNameSat": "Sat",
+  "dayNameSun": "Sun",
+  "dayNameMon": "Mon",
+  "dayNameTue": "Tue",
+  "dayNameWed": "Wed",
+  "dayNameThu": "Thu",
+  "dayNameFri": "Fri",
+  "@homeStreakDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "@homeKhatmaProgress": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "@homeInLabel": {
+    "placeholders": {
+      "countdown": {
+        "type": "String"
+      }
+    }
+  },
+  "@homeWirdProgress": {
+    "placeholders": {
+      "pages": {
+        "type": "int"
+      },
+      "target": {
+        "type": "int"
+      }
+    }
+  },
+  "@homeLastReadingSubtitle": {
+    "placeholders": {
+      "surahName": {
+        "type": "String"
+      },
+      "ayahNumber": {
+        "type": "int"
+      }
+    }
+  },
+  "@homeFavoritesSavedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@homeActiveDaysOf": {
+    "placeholders": {
+      "active": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "@homeWirdTargetMetSummary": {
+    "placeholders": {
+      "met": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "@homeCompletionPercent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "@homeDayNotYet": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      }
+    }
+  },
+  "@homeDaySummary": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      },
+      "pages": {
+        "type": "int"
+      },
+      "azkar": {
+        "type": "int"
+      },
+      "tasbeeh": {
+        "type": "int"
+      },
+      "prayers": {
+        "type": "int"
+      }
+    }
+  },
+  "prayerFajr": "Fajr",
+  "prayerDhuhr": "Dhuhr",
+  "prayerAsr": "Asr",
+  "prayerMaghrib": "Maghrib",
+  "prayerIsha": "Isha",
+  "prayerTimesTitle": "Prayer Times",
+  "prayerSetCityManually": "Set city manually",
+  "prayerCityHint": "Example: Cairo, Egypt",
+  "prayerSearch": "Search",
+  "prayerCityNotFound": "Couldn't find \"{city}\" — check the spelling and try again",
+  "prayerAvailabilityLocationDisabled": "Location services are disabled on your device. Enable them, or set your city manually.",
+  "prayerAvailabilityPermissionDenied": "The app needs location access to show accurate prayer times, or you can set your city manually.",
+  "prayerAvailabilityPermissionDeniedForever": "Location permission was permanently denied. Enable it from system settings, or set your city manually.",
+  "prayerAvailabilityNetworkError": "Couldn't connect to the internet and no saved prayer times were found.",
+  "prayerRetry": "Retry",
+  "prayerUseGps": "Use current location (GPS)",
+  "prayerRefresh": "Refresh",
+  "prayerOfflineBanner": "No connection — showing last saved times",
+  "prayerNextPrayerLabel": "Next Prayer",
+  "prayerTimeRemaining": "Time remaining",
+  "prayerNotYetDue": "{prayer} prayer time hasn't come yet",
+  "prayerMarkedDone": "{prayer} prayer marked as done",
+  "prayerNotDoneYet": "{prayer} prayer not done yet",
+  "prayerFootnote": "Note: times are based on your location or selected city, using the AlAdhan service with the Egyptian calculation method.",
+  "prayerReminderApproaching": "{prayer} prayer is coming up in {minutes} minutes",
+  "@prayerCityNotFound": {
+    "placeholders": {
+      "city": {
+        "type": "String"
+      }
+    }
+  },
+  "@prayerNotYetDue": {
+    "placeholders": {
+      "prayer": {
+        "type": "String"
+      }
+    }
+  },
+  "@prayerMarkedDone": {
+    "placeholders": {
+      "prayer": {
+        "type": "String"
+      }
+    }
+  },
+  "@prayerNotDoneYet": {
+    "placeholders": {
+      "prayer": {
+        "type": "String"
+      }
+    }
+  },
+  "@prayerReminderApproaching": {
+    "placeholders": {
+      "prayer": {
+        "type": "String"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "tasbeehTitle": "Tasbeeh",
+  "tasbeehResetToday": "Reset today's count",
+  "tasbeehCustom": "Custom phrase",
+  "tasbeehToday": "Today",
+  "tasbeehTarget": "Target",
+  "tasbeehPhraseTotal": "Phrase total",
+  "tasbeehGrandTotal": "Grand total",
+  "tasbeehCounterLabel": "{phrase} tasbeeh counter, currently {count} of {target}",
+  "tasbeehTapHint": "Tap to count — long-press a custom phrase to delete it",
+  "tasbeehAddCustomTitle": "Custom phrase",
+  "tasbeehPhraseTextLabel": "Phrase text",
+  "tasbeehPhraseTextHint": "Example: La hawla wa la quwwata illa billah",
+  "tasbeehTargetLabel": "Target",
+  "tasbeehAdd": "Add",
+  "@tasbeehCounterLabel": {
+    "placeholders": {
+      "phrase": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      },
+      "target": {
+        "type": "int"
+      }
+    }
+  },
+  "tasbeehGlossSubhanallah": "SubhanAllah — Glory be to Allah",
+  "tasbeehGlossAlhamdulillah": "Alhamdulillah — Praise be to Allah",
+  "tasbeehGlossAllahuakbar": "Allahu Akbar — Allah is the Greatest",
+  "tasbeehGlossLaIlaha": "La ilaha illallah — There is no god but Allah",
+  "tasbeehGlossAstaghfirullah": "Astaghfirullah — I seek Allah's forgiveness",
+  "tasbeehGlossSalawat": "Allahumma salli ala Muhammad — O Allah, send blessings upon Muhammad",
+  "azkarDuasTitle": "Azkar & Duas",
+  "azkarTabAzkar": "Azkar",
+  "azkarTabDuas": "Duas",
+  "azkarFavoritesTooltip": "Favorites",
+  "azkarLoadError": "Couldn't load azkar. Check your internet connection.",
+  "azkarSearchHint": "Search azkar",
+  "azkarNoResults": "No results",
+  "azkarCategorySubtitle": "{count} azkar — {completed} completed today",
+  "azkarAllDoneInSection": "You've completed all azkar in this section 🌿",
+  "azkarShowCompleted": "Show completed",
+  "azkarHideCompleted": "Hide completed",
+  "azkarCompletedSnackbar": "Well done 🌿 this dhikr is complete",
+  "azkarCopiedSnackbar": "Dhikr copied — you can paste it to share",
+  "azkarPlusOne": "+1",
+  "azkarFavoritesTitle": "Favorite Azkar",
+  "azkarNoFavoritesYet": "No favorite azkar yet",
+  "azkarRetry": "Retry",
+  "@azkarCategorySubtitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "completed": {
+        "type": "int"
+      }
+    }
+  },
+  "quranTitle": "The Holy Quran",
+  "quranViewMushaf": "View Mushaf",
+  "quranTabSurahs": "Surahs",
+  "quranTabJuz": "Juz",
+  "quranTabSearch": "Search",
+  "quranTabFavorites": "Favorites",
+  "quranLoadError": "Couldn't load the Quran. Check your internet connection.",
+  "quranViewMode": "View mode",
+  "quranMushafPagesLoadError": "Couldn't load Mushaf pages — check your connection",
+  "quranViewAsMushafPages": "View as Mushaf pages",
+  "quranCompletionPercent": "Quran completion {percent} percent",
+  "quranKhatmaProgress": "Khatma progress",
+  "quranSearchSurahHint": "Search by surah name or number",
+  "quranSurahSubtitle": "{englishName} - {count} ayahs",
+  "quranJuzNumber": "Juz {number}",
+  "quranJuzStartsFrom": "Starts from Surah {surahName} - Ayah {ayahNumber}",
+  "quranSearchAyahHint": "Search verse text",
+  "quranSearchMinChars": "Type at least 2 characters to search",
+  "quranAyahLocation": "Surah {surahName} - Ayah {ayahNumber}",
+  "quranNoFavoriteAyahsYet": "No favorite verses yet",
+  "quranChooseReciter": "Choose Reciter",
+  "quranTafsirTimeoutError": "Loading the tafsir took too long — the file is large (2.7 MB), try on a faster connection",
+  "quranTafsirLoadError": "Couldn't load the tafsir — check your connection",
+  "quranLastReadingSaved": "Last reading saved: Surah {surahName} - Ayah {ayahNumber}",
+  "quranAyahCopyFormat": "{text} (Surah {surahName}: {ayahNumber})",
+  "quranAyahCopiedSnackbar": "Verse copied",
+  "quranAddedToWird": "This reading was added to your daily wird 🌿",
+  "quranSurahAppBarTitle": "Surah {name}",
+  "quranViewAsMushafPageTooltip": "View this surah as a Mushaf page",
+  "quranChooseReciterTooltip": "Choose reciter ({reciterName})",
+  "quranDecreaseFontTooltip": "Decrease font size",
+  "quranIncreaseFontTooltip": "Increase font size",
+  "quranAddToWirdTooltip": "Add to daily wird",
+  "quranAyahCountLabel": "{count} ayahs",
+  "quranStopSurahRecitationLabel": "Stop surah recitation",
+  "quranPlaySurahRecitationLabel": "Play the whole surah's recitation",
+  "quranStopLabel": "Stop",
+  "quranPlayWholeSurahLabel": "Play whole surah",
+  "quranNoTafsirAvailable": "No tafsir available for this verse",
+  "quranStopPlayingAyahLabel": "Stop playing this verse",
+  "quranPlayAyahLabel": "Play Ayah {number}",
+  "quranPlayAyahTooltip": "Play verse",
+  "quranRepeatAyahTooltip": "Repeat this verse",
+  "quranHideTafsirTooltip": "Hide tafsir",
+  "quranShowTafsirTooltip": "Show simplified tafsir",
+  "quranSaveAsLastReadingTooltip": "Save as last reading",
+  "quranCopyAyahTooltip": "Copy verse",
+  "quranRemoveFromFavoritesLabel": "Remove from favorites",
+  "quranAddToFavoritesLabel": "Add to favorites",
+  "quranRetry": "Retry",
+  "quranDownloadedForOfflineSnackbar": "Surah downloaded for offline listening",
+  "quranDeleteDownloadTitle": "Delete download",
+  "quranDeleteDownloadBody": "The downloaded audio files for this surah will be deleted.",
+  "quranStopDownloadTooltip": "Stop downloading ({done}/{total})",
+  "quranDeleteDownloadedTooltip": "Downloaded for offline listening — tap to delete",
+  "quranDownloadForOfflineTooltip": "Download surah for offline listening",
+  "@quranCompletionPercent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "@quranSurahSubtitle": {
+    "placeholders": {
+      "englishName": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@quranJuzNumber": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@quranJuzStartsFrom": {
+    "placeholders": {
+      "surahName": {
+        "type": "String"
+      },
+      "ayahNumber": {
+        "type": "int"
+      }
+    }
+  },
+  "@quranAyahLocation": {
+    "placeholders": {
+      "surahName": {
+        "type": "String"
+      },
+      "ayahNumber": {
+        "type": "int"
+      }
+    }
+  },
+  "@quranLastReadingSaved": {
+    "placeholders": {
+      "surahName": {
+        "type": "String"
+      },
+      "ayahNumber": {
+        "type": "int"
+      }
+    }
+  },
+  "@quranAyahCopyFormat": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      },
+      "surahName": {
+        "type": "String"
+      },
+      "ayahNumber": {
+        "type": "int"
+      }
+    }
+  },
+  "@quranSurahAppBarTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@quranChooseReciterTooltip": {
+    "placeholders": {
+      "reciterName": {
+        "type": "String"
+      }
+    }
+  },
+  "@quranAyahCountLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@quranPlayAyahLabel": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "@quranStopDownloadTooltip": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "qiblaTitle": "Qibla Direction",
+  "qiblaRetry": "Retry",
+  "qiblaLocationServiceDisabled": "Location services are disabled on your device. Enable them to find the Qibla direction.",
+  "qiblaPermissionDenied": "The app needs location access to find the Qibla direction accurately.",
+  "qiblaLocationError": "Couldn't determine your location. Check your connection and try again.",
+  "qiblaNoCompassSensor": "Your device doesn't have a compass sensor. Use the value below with another compass to orient yourself.",
+  "qiblaBearingFromNorth": "Direction from true north",
+  "qiblaCompassNorth": "N",
+  "qiblaCompassSouth": "S",
+  "qiblaCompassEast": "E",
+  "qiblaCompassWest": "W",
+  "qiblaAligned": "You're facing the Qibla ✓",
+  "qiblaNotAligned": "Turn your device until the marker points up",
+  "qiblaBearingValue": "Qibla bearing: {degrees}° from north",
+  "qiblaCalibrationHint": "If the compass seems inaccurate, move your device in a figure-8 motion, away from magnetic objects, to calibrate it",
+  "toolQiblaTitle": "Qibla Direction",
+  "toolQiblaSubtitle": "A compass to find the Qibla direction wherever you are",
+  "@qiblaBearingValue": {
+    "placeholders": {
+      "degrees": {
+        "type": "int"
+      }
+    }
+  },
+  "toolsTitle": "Islamic Tools",
+  "toolZakatTitle": "Zakat Calculator",
+  "toolZakatSubtitle": "Calculate your Zakat with ease",
+  "toolAsmaTitle": "The 99 Names of Allah",
+  "toolAsmaSubtitle": "The 99 Names and their meanings",
+  "toolRamadanTitle": "Ramadan Companion",
+  "toolRamadanSubtitle": "Countdown to suhoor and iftar, and fasting tracker",
+  "toolDuasTitle": "My Duas",
+  "toolDuasSubtitle": "Save your own personal duas",
+  "toolMosqueTitle": "Nearby Mosques & Halal Food",
+  "toolMosqueSubtitle": "Free search powered by OpenStreetMap data"
+}
